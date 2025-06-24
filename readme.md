@@ -32,13 +32,17 @@ A comprehensive doubly linked list implementation in Python with full bidirectio
    ```
 
 3. **Verify installation**
-   ```python
-   from doublelinkedlist import Double_Linked_List, Node
+   ```bash
+   in the terminal cd to where you stored the DoublyLinkedList folder
+
+   once in the folder:
+
+   cd test
+
+   then:
+
+   python3 test_double_linked_list.py
    
-   # Create a new list
-   dll = Double_Linked_List()
-   print("Installation successful!")
-   ```
 
 ## Quick Start
 
