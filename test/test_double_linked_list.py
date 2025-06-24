@@ -1,5 +1,8 @@
-from  double_linked_list.node import Node
-from double_linked_list.double_linked_list import Double_Linked_List
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'src'))
+
+from doublelinkedlist import Node, Double_Linked_List
 
 def print_list_forward(dll):
     """Helper function to print list from head to tail"""
