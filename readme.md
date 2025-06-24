@@ -22,7 +22,7 @@ A comprehensive doubly linked list implementation in Python with full bidirectio
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/username/doublelinkedlist.git
+   git clone https://github.com/LachlanMayes/DoublyLinkedList.git
    cd doublelinkedlist
    ```
 
