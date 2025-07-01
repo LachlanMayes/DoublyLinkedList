@@ -6,4 +6,4 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
 [tool.uv.scripts]
-test = "python test_double_linked_list.py"
+test = "python test/test_double_linked_list.py"
