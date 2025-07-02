@@ -31,17 +31,17 @@ A comprehensive doubly linked list implementation in Python with full bidirectio
    pip install -e .
    ```
 
-3. **Verify installation**
+4. **Verify installation**
    ```bash
    in the terminal cd to where you stored the DoublyLinkedList folder
 
    once in the folder:
 
-   cd test
+   run: uv sync
 
    then:
 
-   python3 test_double_linked_list.py
+   uv run test/test_double_linked_list.py
    
 
 ## Quick Start
