@@ -89,9 +89,17 @@ jobs:
       url: https://pypi.org/p/doublelinkedlist
     permissions:
       id-token: write  # For trusted publishing
+
+    steps:
+    - name: Download build artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: dist
+        path: dist/
           
 
-          
+    - name: Publish to PyPI
+      uses: pypa/gh-action-pypi-publish@release/v1
 
     
           
